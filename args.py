@@ -13,8 +13,9 @@ test_var_args('science', 'tecnology', 'love', 'existence')
 
 """
     So, what is happening here? 
-    Basicly args packs together all variables
-    after the ones we directly called
+    
+    Basicly args packs together all 
+    variables after the ones we directly called
     The function bellow should make it even easier to understand
 """
 
