@@ -8,9 +8,6 @@ add_one = (lambda x : x + 1)(10)
 print(add_one)
 
 
-
-
-
 """
     this is how a f-string works in python, it is
     important that we are looking at this before
@@ -44,8 +41,6 @@ print(f"{planet} is in {galaxy} and is {age} {units} old.")
     Output: Earth is 4.54 years old
             Earth is in Milky Way and is 4.54 billion years old old
 """
-
-
 
 
 """
