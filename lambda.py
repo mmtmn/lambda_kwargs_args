@@ -82,3 +82,19 @@ print(_(1,2))
         to use _ for throwaway variables. It just indicates that the
         loop variable isn't actually used.
 """
+
+"""
+    Now we will se how to use nested lambda functions!
+"""
+lambda_function = (lambda x, your_function: x + your_function(x))
+nested_lambda = lambda_function(2, lambda x: x * x)
+print(nested_lambda)
+nested_lambda2 = lambda_function(4, lambda x: x + 5)
+print(nested_lambda2)
+"""
+    Outputs: 6
+             13
+
+    In this exemple, python exposes higher-order functions 
+    as built-in functions or in the standard library
+"""
