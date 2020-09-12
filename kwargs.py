@@ -12,3 +12,5 @@ def join(**kwargs):
     return concatenates_values, concatenates_variable_names
 
 print(join(a="Hello ", b="from ", c="kwargs ", d="!"))
+
+# Output: ('Hello from kwargs !', 'abcd')
