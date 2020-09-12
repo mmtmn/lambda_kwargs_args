@@ -60,7 +60,25 @@ print(job_role("junior", "backend dev"))
     Output: Job Role: Junior Backend Dev
 
     So you might be asking yourself, ok, but why did we use .title?
-    Here is why: The .title() method in pythong transforms every
+    Here is why: The .title() method in python transforms every
     first letter of a word inside variable and turns it into an 
     uppercase letter
+"""
+
+
+
+"""
+    Ok, so now we will see lambda in action with 
+    a interpeter-only feature!
+"""
+_ = lambda x, y: x + y
+print(_(1,2))
+"""
+    Output: 3
+
+    Ok, so here we see the interpeter-only feature as a
+    underscore:
+        It's just a variable name, and it's conventional in python
+        to use _ for throwaway variables. It just indicates that the
+        loop variable isn't actually used.
 """
